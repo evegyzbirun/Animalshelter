@@ -2,18 +2,38 @@
 body {
   background-color: blanchedalmond;
 }
+
+
+
+
+.header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .section-text {
-  color:#2b9e35;
+  
   text-align: center;
   border: 1px solid black;
+}
 
+.section-text p {
+ color: red;
 }
 .section  {
   margin-top: 30px;
-  display: flex;
-  align-items: center;
   margin: 30px;
   padding: 10px;
-  border: 3px solid rgb(192, 162, 135);
+  border: 3px solid rgb(92, 80, 70);
   border-radius: 5px;
+  columns: 60rem auto;
+  
+
+}
+.section-image {
+  margin: auto;
+  width: 20%;
+  height: auto;
+  
+
 }
